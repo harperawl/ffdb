@@ -18,7 +18,7 @@ The basic structure of the database is the following two namespaces, which conta
 | --- | --- |
 | `games` | Game-level information, like teams, venue, game date |
 | `plays` | Plate appearance information, like matchup and result of PA | 
-| `events` | Pitch-level event information, like pitch tracking |
+| `events` | Pitch-level event information, like pitch tracking and ABS |
 | `play_credits` | PA-level at-bat and plate appearance credits |
 | `runners` | PA-level runner information, like player ID and start/end base |
 | `runner_credits` | PA-level putout credits containing player ID and out type |

@@ -17,3 +17,7 @@ dependencies = [
 
 [project.scripts]
 ffdb = "cli.main:app"
+
+[tool.setuptools]
+packages = ["cli", "extractors", "references"]
+py-modules = ["config", "duck", "games", "helpers", "pipeline", "players"]
